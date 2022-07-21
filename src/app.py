@@ -49,6 +49,7 @@ info = """#### How is this measured?
 
 **Notes**
 
+* This is a way to compare the policies and topics of interest of various Brazilian political parties.
 * Only **aggregated** and **anonymized** data is presented.
 """
 st.markdown(info)
@@ -56,12 +57,14 @@ st.markdown(info)
 # Disclaimer:
 disclaimer = """#### Disclaimer for Facebook reviewers
 
-* This app will only achieve its goals if the [Page Public Content Access](https://developers.facebook.com/docs/features-reference/page-public-content-access) feature is authorized;
+* This app will only achieve its goals if the [Page Public Content Access](https://developers.facebook.com/docs/features-reference/page-public-content-access) feature is authorized, because we need access to the candidates' public pages;
 * Current app permissions only allow access to Public Pages owned by the app's developer. Thus, we used the four mock pages below as candidates' pages:
     * [Candidate 1](https://www.facebook.com/Candidate-1-111426894976704), from Party A;
     * [Candidate 2](https://www.facebook.com/Candidate-2-100281926113114), from Party A;
-    * [Candidate 3](https://www.facebook.com/Candidate-3-102358565898903), from Party B;
-    * [Candidate 4](https://www.facebook.com/Candidate-4-109748375146739), from Party B;    
+    * [Candidate 3](https://www.facebook.com/Candidate-3-102358565898903), from Party B; 
+    * [Candidate 4](https://www.facebook.com/Candidate-4-109748375146739), from Party B.
+* This app will only be used on this website. There are no other uses to it.
+
 """
 st.markdown(disclaimer)
 
