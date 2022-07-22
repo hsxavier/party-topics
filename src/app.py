@@ -14,12 +14,16 @@ import graph_api as fb
 import backend as bk
 import htmlhacks as hh
 
-st.image('http://henriquexavier.net/images/fantasmas_pic.jpg')
+# Carrega CSS:
+hh.localCSS("style.css")
 
-st.markdown('# Party topics')
-st.markdown('#### What are the candidates for the Brazilian House of Representatives talking about on the 2022 elections?')
 
-hh.html('<hr/>')
+#st.image('http://henriquexavier.net/images/fantasmas_pic.jpg')
+
+#st.markdown('# Party topics')
+#st.markdown('#### What are the candidates for the Brazilian House of Representatives talking about on the 2022 elections?')
+
+#hh.html('<hr/>')
 
 # Load token:
 #user_token = fb.load_token_from_file('/home/skems/ceweb/config/keys/facebook_graph_api_user_access_token_upto_2022-09-18.txt')
@@ -38,7 +42,7 @@ hh.html(update_html)
 emphasis_plot = bk.plot_party_emphasis(party_freq_df)
 st.pyplot(emphasis_plot)
 
-hh.html('<hr/>')
+#hh.html('<hr/>')
 
 # Info:
 info = """#### How is this measured?
@@ -52,7 +56,7 @@ info = """#### How is this measured?
 * This is a way to compare the policies and topics of interest of various Brazilian political parties.
 * Only **aggregated** and **anonymized** data is presented.
 """
-st.markdown(info)
+#st.markdown(info)
 
 # Disclaimer:
 disclaimer = """#### Disclaimer for Facebook reviewers
@@ -66,9 +70,9 @@ disclaimer = """#### Disclaimer for Facebook reviewers
 * This app will only be used on this website. There are no other uses to it.
 
 """
-st.markdown(disclaimer)
+#st.markdown(disclaimer)
 
-hh.html('<hr/>')
+#hh.html('<hr/>')
 
 footnote = '<p style="color:#717171; text-align:right">App developed by <a href="https://henriquexavier.net">Henrique Xavier</a>.</p>'
-hh.html(footnote)
+#hh.html(footnote)

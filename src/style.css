@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Remove Streamlit toolbar menu */
+[data-testid=stToolbar] {
+    display: none;
+}
+
+/* Remove botões de aumentar o tamanho de uma imagem */
+[title="View fullscreen"] {
+    display: none;
+}
+
+/* So plots do not increase in size indefinitely */
+/*
+img {    
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+/* Center images */
+/*[data-testid="stImage"] {
+    margin: auto;
+}
+*/
