@@ -13,7 +13,7 @@
 
 /* Para que a página se limite ao tamanho da imagem */
 .block-container {
-    max-height: 620px;
+    max-height: 750px;
 }
 
 /* Para colocar o footnote fo streamlit do lado direito */

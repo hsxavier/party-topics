@@ -22,6 +22,11 @@ hh.localCSS("style.css")
 
 #st.markdown('# Party topics')
 #st.markdown('#### What are the candidates for the Brazilian House of Representatives talking about on the 2022 elections?')
+caption = """#### Word usage, per party
+
+This plot shows the frequency of each word (ignoring stopwords and unique words) on Facebook posts of the parties' candidates.
+"""
+st.markdown(caption)
 
 #hh.html('<hr/>')
 
