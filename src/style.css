@@ -11,6 +11,18 @@
     display: none;
 }
 
+/* Para que a página se limite ao tamanho da imagem */
+.block-container {
+    max-height: 620px;
+}
+
+
+/* Para colocar o footnote fo streamlit do lado direito */
+.css-1q1n0ol {
+    text-align: right;
+}
+
+
 /* So plots do not increase in size indefinitely */
 /*
 img {    
